@@ -1,0 +1,5 @@
+# Core AWS SDK
+boto3>=1.34.0
+
+# Optional rich formatting
+# rich>=13.0.0
