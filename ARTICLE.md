@@ -5,6 +5,8 @@
 **Project Repository:** [CloudSnack on GitHub](https://github.com/mickotec/cloudsnack)  
 **Estimated Reading Time:** 6 minutes (Word count: ~1,400 words)
 
+![CloudSnack Cover Image](assets/cover.jpg)
+
 ---
 
 ## The Origin Story: Why Does Cloud Cost Management Feel Like an IRS Audit?

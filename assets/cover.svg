@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="50%" stop-color="#1E1E38" />
+      <stop offset="100%" stop-color="#2D1B4E" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.95" />
+    </linearGradient>
+
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9900" />
+      <stop offset="100%" stop-color="#FF5E62" />
+    </linearGradient>
+
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4" />
+      <stop offset="100%" stop-color="#3B82F6" />
+    </linearGradient>
+
+    <!-- Filters for Glow & Shadows -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="630" fill="url(#bgGrad)" />
+
+  <!-- Grid Pattern Overlay -->
+  <g opacity="0.08" stroke="#FFFFFF" stroke-width="1">
+    <line x1="0" y1="90" x2="1200" y2="90" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="270" x2="1200" y2="270" />
+    <line x1="0" y1="360" x2="1200" y2="360" />
+    <line x1="0" y1="450" x2="1200" y2="450" />
+    <line x1="0" y1="540" x2="1200" y2="540" />
+    <line x1="150" y1="0" x2="150" y2="630" />
+    <line x1="300" y1="0" x2="300" y2="630" />
+    <line x1="450" y1="0" x2="450" y2="630" />
+    <line x1="600" y1="0" x2="600" y2="630" />
+    <line x1="750" y1="0" x2="750" y2="630" />
+    <line x1="900" y1="0" x2="900" y2="630" />
+    <line x1="1050" y1="0" x2="1050" y2="630" />
+  </g>
+
+  <!-- Ambient Glowing Blobs -->
+  <circle cx="200" cy="180" r="160" fill="#FF9900" opacity="0.12" filter="url(#glow)" />
+  <circle cx="980" cy="220" r="220" fill="#A855F7" opacity="0.18" filter="url(#glow)" />
+  <circle cx="700" cy="480" r="180" fill="#06B6D4" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Left Hero Content Column -->
+  <g transform="translate(80, 75)">
+    <!-- Challenge Badge -->
+    <rect x="0" y="0" width="370" height="38" rx="19" fill="#FF9900" fill-opacity="0.15" stroke="#FF9900" stroke-width="1.5" />
+    <circle cx="20" cy="19" r="6" fill="#FF9900" />
+    <text x="36" y="24" fill="#FFAA22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="700" letter-spacing="1.5">AWS BUILDER CENTER WEEKEND CHALLENGE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="110" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="58" font-weight="900" letter-spacing="-1">
+      CloudSnack
+    </text>
+    <text x="320" y="110" font-size="44">🍪☕</text>
+
+    <!-- Gradient Tagline -->
+    <text x="0" y="165" fill="url(#orangeGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800">
+      The Guilt-Free AI Cloud Hygiene Companion
+    </text>
+
+    <!-- Subtitle description -->
+    <text x="0" y="210" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400">
+      Turning scary AWS bills &amp; idle waste into delicious café treats
+    </text>
+    <text x="0" y="236" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="18" font-weight="400">
+      with 1-click Mercy Mode rollbacks &amp; plain-English error translations.
+    </text>
+
+    <!-- Tech Stack Feature Pills -->
+    <g transform="translate(0, 290)">
+      <!-- Pill 1: Amazon Bedrock -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="42" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="26" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">🤖 Amazon Bedrock</text>
+      </g>
+      <!-- Pill 2: Converse API -->
+      <g transform="translate(195, 0)">
+        <rect width="150" height="42" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1.5" />
+        <text x="16" y="26" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">⚡ Converse API</text>
+      </g>
+      <!-- Pill 3: 100% Read-Only -->
+      <g transform="translate(360, 0)">
+        <rect width="165" height="42" rx="10" fill="#1E293B" stroke="#10B981" stroke-width="1.5" />
+        <text x="16" y="26" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="600">🛡️ 100% Read-Only</text>
+      </g>
+    </g>
+
+    <!-- Tag Badge -->
+    <g transform="translate(0, 375)">
+      <text x="0" y="20" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="500">
+        Article Tag: <tspan fill="#38BDF8" font-weight="700">#agents</tspan> • Open Source on GitHub
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Visual Preview Mockup Card (Floating Snack Tray) -->
+  <g transform="translate(680, 85)" filter="url(#cardShadow)">
+    <!-- Card Frame -->
+    <rect width="440" height="460" rx="20" fill="url(#cardGrad)" stroke="#334155" stroke-width="2" />
+
+    <!-- Terminal Header Bar -->
+    <rect width="440" height="46" rx="20" fill="#0F172A" />
+    <circle cx="28" cy="23" r="6" fill="#EF4444" />
+    <circle cx="48" cy="23" r="6" fill="#F59E0B" />
+    <circle cx="68" cy="23" r="6" fill="#10B981" />
+    <text x="150" y="28" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">
+      cloudsnack scan --demo
+    </text>
+
+    <!-- Card Content -->
+    <g transform="translate(25, 70)">
+      <!-- Tray Title -->
+      <text x="0" y="18" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17" font-weight="800">
+        🍱 TODAY'S CLOUD SNACK TRAY
+      </text>
+      <line x1="0" y1="30" x2="390" y2="30" stroke="#334155" stroke-width="1.5" />
+
+      <!-- Item 1: Idle NAT Gateway -->
+      <g transform="translate(0, 48)">
+        <rect width="390" height="64" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1" />
+        <text x="14" y="25" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Idle NAT Gateway</text>
+        <text x="14" y="46" fill="#94A3B8" font-family="monospace" font-size="11">nat-0a98f12c8b74e11a2</text>
+        <text x="250" y="27" fill="#F87171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">$32.40/mo</text>
+        <rect x="265" y="12" width="112" height="40" rx="8" fill="#292524" />
+        <text x="321" y="36" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">☕ 6 Flat Whites</text>
+      </g>
+
+      <!-- Item 2: Unattached EBS Volume -->
+      <g transform="translate(0, 122)">
+        <rect width="390" height="64" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1" />
+        <text x="14" y="25" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Unattached EBS Volume</text>
+        <text x="14" y="46" fill="#94A3B8" font-family="monospace" font-size="11">vol-03b9841f17e08ba45</text>
+        <text x="250" y="27" fill="#F87171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">$8.00/mo</text>
+        <rect x="265" y="12" width="112" height="40" rx="8" fill="#292524" />
+        <text x="321" y="36" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🍕 2 NYC Slices</text>
+      </g>
+
+      <!-- Item 3: Stopped RDS Instance -->
+      <g transform="translate(0, 196)">
+        <rect width="390" height="64" rx="10" fill="#1E293B" stroke="#475569" stroke-width="1" />
+        <text x="14" y="25" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700">Stopped RDS Instance</text>
+        <text x="14" y="46" fill="#94A3B8" font-family="monospace" font-size="11">dev-postgres-sandbox</text>
+        <text x="250" y="27" fill="#F87171" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" font-weight="700" text-anchor="end">$11.50/mo</text>
+        <rect x="265" y="12" width="112" height="40" rx="8" fill="#292524" />
+        <text x="321" y="36" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" text-anchor="middle">🥐 3 Croissants</text>
+      </g>
+
+      <!-- Total & Mercy Badge -->
+      <g transform="translate(0, 275)">
+        <rect width="390" height="78" rx="12" fill="#3B1C4D" stroke="#A855F7" stroke-width="1.5" />
+        <text x="16" y="28" fill="#E2E8F0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">Reclaimable Snack Budget:</text>
+        <text x="16" y="58" fill="#F43F5E" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="24" font-weight="900">$51.90 / mo</text>
+        <text x="200" y="54" fill="#FBBF24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">≈ 10 Lattes ☕</text>
+        <text x="375" y="28" fill="#34D399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" text-anchor="end">🛡️ Mercy Mode Safe</text>
+      </g>
+    </g>
+  </g>
+</svg>

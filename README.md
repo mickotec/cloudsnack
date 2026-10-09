@@ -1,5 +1,7 @@
 # 🍪 CloudSnack: Your Guilt-Free AWS Cloud Hygiene Companion
 
+![CloudSnack Cover Banner](assets/cover.jpg)
+
 > *"Small and delightful beats big and clunky."* Built for the **AWS Builder Center Weekend Challenge: Build an agent people actually enjoy using**.
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/)
