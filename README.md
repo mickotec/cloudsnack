@@ -38,7 +38,7 @@ CloudSnack says:
 No extra dependencies required to test! Run the interactive guided demo immediately:
 
 ```bash
-git clone https://github.com/<your-username>/cloudsnack.git
+git clone https://github.com/mickotec/cloudsnack.git
 cd cloudsnack
 python3 run_demo.py
 ```

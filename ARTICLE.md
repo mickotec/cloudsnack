@@ -2,7 +2,7 @@
 
 **Article Tag:** `#agents`  
 **Author:** AWS Builder Community Member  
-**Project Repository:** [CloudSnack on GitHub](https://github.com/micko/cloudsnack)  
+**Project Repository:** [CloudSnack on GitHub](https://github.com/mickotec/cloudsnack)  
 **Estimated Reading Time:** 6 minutes (Word count: ~1,400 words)
 
 ---
